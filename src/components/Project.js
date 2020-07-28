@@ -2,7 +2,9 @@ import React from "react";
 
 import ProjectLibrary from "../util/ProjectLibrary";
 
-function Project(projectID) {
+function Project({ projectID }) {
+  console.log("ProjectLibrary: ", ProjectLibrary);
+  console.log("projectID", projectID);
   return (
     <div id="project-container">
       <section className="section-container mx-auto text-center">
@@ -18,7 +20,7 @@ function Project(projectID) {
             className="project-link"
             href={ProjectLibrary[projectID].liveLink}
           >
-            {}
+            {projectID} live page
           </a>
         </div>
         <div className="link-container mx-auto text-center">
@@ -27,7 +29,7 @@ function Project(projectID) {
             className="project-link"
             href={ProjectLibrary[projectID].repoLink}
           >
-            {}
+            {projectID} repository
           </a>
         </div>
         <p

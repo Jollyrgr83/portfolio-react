@@ -2,15 +2,17 @@ import React from 'react';
 import './App.css';
 
 import Header from "./components/Header";
-import Contact from "./pages/Contact";
+import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <div>
       <Header />
-      <Contact />
+      <About />
       <Projects />
+      <Contact />
     </div>
   );
 }
