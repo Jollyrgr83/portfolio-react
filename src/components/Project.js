@@ -3,8 +3,6 @@ import React from "react";
 import ProjectLibrary from "../util/ProjectLibrary";
 
 function Project({ projectID }) {
-  console.log("ProjectLibrary: ", ProjectLibrary);
-  console.log("projectID", projectID);
   return (
     <div id="project-container">
       <section className="section-container mx-auto text-center">
