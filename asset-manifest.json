@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.f45591f0.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.d8beb2cb.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.d8beb2cb.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.c94dc782.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.c94dc782.js.map",
+    "static/css/2.53573671.chunk.css": "/portfolio-react/static/css/2.53573671.chunk.css",
+    "static/js/2.1842c627.chunk.js": "/portfolio-react/static/js/2.1842c627.chunk.js",
+    "static/js/2.1842c627.chunk.js.map": "/portfolio-react/static/js/2.1842c627.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "precache-manifest.d709942cbb31a3bb4291bad6e9ad6944.js": "/portfolio-react/precache-manifest.d709942cbb31a3bb4291bad6e9ad6944.js",
+    "service-worker.js": "/portfolio-react/service-worker.js",
+    "static/css/2.53573671.chunk.css.map": "/portfolio-react/static/css/2.53573671.chunk.css.map",
+    "static/css/main.f45591f0.chunk.css.map": "/portfolio-react/static/css/main.f45591f0.chunk.css.map",
+    "static/js/2.1842c627.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.1842c627.chunk.js.LICENSE.txt",
+    "static/media/a-crop.png": "/portfolio-react/static/media/a-crop.6379b280.png",
+    "static/media/bio2.jpg": "/portfolio-react/static/media/bio2.b77576d2.jpg",
+    "static/media/burger.png": "/portfolio-react/static/media/burger.34eef9c3.png",
+    "static/media/coding-quiz.png": "/portfolio-react/static/media/coding-quiz.6ee0a498.png",
+    "static/media/day-planner.png": "/portfolio-react/static/media/day-planner.1647a9fa.png",
+    "static/media/event-scoring-database.png": "/portfolio-react/static/media/event-scoring-database.cc8ed6f9.png",
+    "static/media/font-awesome.min.css": "/portfolio-react/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/jason-mangin-resume.pdf": "/portfolio-react/static/media/jason-mangin-resume.15afa445.pdf",
+    "static/media/navy-crop.png": "/portfolio-react/static/media/navy-crop.647144a0.png",
+    "static/media/skyvi3w.PNG": "/portfolio-react/static/media/skyvi3w.0a1a8aa2.PNG",
+    "static/media/story-lines.png": "/portfolio-react/static/media/story-lines.d5dccfa7.png",
+    "static/media/weather-dashboard.png": "/portfolio-react/static/media/weather-dashboard.fbcfbd75.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c94dc782.js",
+    "static/css/2.53573671.chunk.css",
+    "static/js/2.1842c627.chunk.js",
+    "static/css/main.f45591f0.chunk.css",
+    "static/js/main.d8beb2cb.chunk.js"
+  ]
+}
