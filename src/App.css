@@ -1,4 +1,8 @@
-/* body sizing and background */
+.main-background {
+  width: 100%;
+  background-color: rgba(119, 136,153, 45%);
+}
+/* component sizing and background */
 .background {
   width: 375px;
   background-color: rgba(119, 136,153, 50%);

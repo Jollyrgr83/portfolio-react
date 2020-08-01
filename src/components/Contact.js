@@ -1,18 +1,22 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
+import resume from "../images/jason-mangin-resume.pdf";
 
 function Contact() {
   return (
-    <div id="contact" className="background mx-auto text-center">
+    <div>
       <h2>links and resume</h2>
       <section className="section-container mx-auto">
         <div className="row mx-auto text-center">
           <a
             className="square linkedin mx-auto"
-            href="https://www.linkedin.com/in/jason-mangin-21032065"
+            href="https://www.linkedin.com/in/jason-mangin"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-linkedin mx-3"></i>
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a
             className="square github mx-auto"
@@ -20,15 +24,15 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-github mx-3"></i>
+            <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
             className="square resume mx-auto"
-            href="./assets/images/jason-mangin-resume.pdf"
+            href={resume}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="far fa-file-pdf mx-3"></i>
+            <FontAwesomeIcon icon={faFilePdf} />
           </a>
         </div>
       </section>
@@ -48,21 +52,21 @@ function Contact() {
       <h2>or send a message</h2>
       <section className="section-container mx-auto">
         <form action="https://formspree.io/mvobedaz" method="POST">
-          <label for="nameInput">name</label>
+          <label htmlFor="nameInput">name</label>
           <input
             type="name"
             id="nameInput"
             placeholder="your name here"
             name="name"
           />
-          <label for="emailInput">email address</label>
+          <label htmlFor="emailInput">email address</label>
           <input
             type="email"
             id="emailInput"
             placeholder="name@example.com"
             name="_replyto"
           />
-          <label for="messageInput">message</label>
+          <label htmlFor="messageInput">message</label>
           <textarea id="messageInput" rows="9" name="message"></textarea>
           <div className="text-right">
             <button type="submit" className="button">

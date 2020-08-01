@@ -9,7 +9,7 @@ function Projects() {
   const [projectSelection, setProjectSelection] = useState();
 
   return (
-  <div id="projects" className="background mx-auto text-center">
+  <div>
     <h2>projects</h2>
     <section className="section-container mx-auto text-center">
       <p className="section-text">

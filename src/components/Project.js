@@ -1,5 +1,4 @@
 import React from "react";
-
 import ProjectLibrary from "../util/ProjectLibrary";
 
 function Project({ projectID }) {
