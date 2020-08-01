@@ -270,3 +270,8 @@ textarea:enabled, textarea:active, textarea:focus {
 .hide {
     display: none;
 }
+
+.footer {
+  background-color: navy;
+  color: white;
+}
